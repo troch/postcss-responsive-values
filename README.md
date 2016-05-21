@@ -18,7 +18,7 @@ Will output (see Usage below)
     padding: 1rem 1.6rem 0;
 }
 @media (min-width: 640px) {
-    .a {
+    .my-class-name {
         margin-top: 2rem;
         padding: 1.4rem 2rem 0;
     }
