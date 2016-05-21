@@ -1,6 +1,6 @@
 # postcss-responsive-values
 
-[PostCSS] Responsive values for postCSS
+[PostCSS] Responsive values
 
 [PostCSS]: https://github.com/postcss/postcss
 
