@@ -6,8 +6,8 @@
 
 ```css
 .my-class-name {
-    margin-top: responsive(whitespace);
-    padding: responsive(whitespaceSmall) responsive(whitespace) 0;
+    margin-top: responsive(whitespaceBase);
+    padding: responsive(whitespaceSmall) responsive(whitespaceBase) 0;
 }
 ```
 Will output (see Usage below)
@@ -42,7 +42,7 @@ var values = {
             '(min-width: 640px)': '1.4rem'
         }
     },
-    whitespace: {
+    whitespaceBase: {
         value: '1.6rem',
         queries: {
             '(min-width: 640px)': '2rem'
