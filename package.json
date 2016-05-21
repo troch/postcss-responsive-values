@@ -1,0 +1,38 @@
+{
+  "name": "postcss-responsive-values",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A responsive function for postCSS",
+  "main": "index.js",
+  "dependencies": {
+    "ava": "~0.14.0",
+    "eslint": "~2.10.2",
+    "eslint-config-postcss": "~2.0.2",
+    "i": "^0.3.5",
+    "is-equal-shallow": "^0.1.3",
+    "npm": "^3.9.2",
+    "postcss-value-parser": "^3.3.0"
+  },
+  "devDependencies": {
+    "postcss": "~5.0.21"
+  },
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troch/postcss-responsive-function.git"
+  },
+  "keywords": [
+    "postCSS",
+    "responsive",
+    "function"
+  ],
+  "author": "Thomas Roch <thomas.c.roch@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troch/postcss-responsive-function/issues"
+  },
+  "homepage": "https://github.com/troch/postcss-responsive-function#readme"
+}
