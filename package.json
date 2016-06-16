@@ -1,19 +1,17 @@
 {
   "name": "postcss-responsive-values",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A responsive values plugin for postCSS",
   "main": "index.js",
   "dependencies": {
-    "ava": "~0.14.0",
-    "eslint": "~2.10.2",
-    "eslint-config-postcss": "~2.0.2",
-    "i": "}0.3.5",
-    "is-equal-shallow": "}0.1.3",
-    "npm": "}3.9.2",
-    "postcss-value-parser": "}3.3.0"
+    "is-equal-shallow": "0.1.3",
+    "postcss-value-parser": "3.3.0",
+    "postcss": "~5.0.21"
   },
   "devDependencies": {
-    "postcss": "~5.0.21"
+    "ava": "~0.14.0",
+    "eslint": "~2.10.2",
+    "eslint-config-postcss": "~2.0.2"
   },
   "scripts": {
     "test": "ava",
