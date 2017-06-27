@@ -14,10 +14,10 @@ const output = `
     padding: 1rem 1.6rem 0;
 }
 @media (min-width: 640px) {
-    .a {
-        margin-top: 2rem;
-        padding: 1.4rem 2rem 0;
-    }
+.a {
+    margin-top: 2rem;
+    padding: 1.4rem 2rem 0;
+}
 }
 `;
 const options = {
